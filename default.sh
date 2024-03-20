@@ -17,6 +17,42 @@ PIP_PACKAGES=(
     "bitsandbytes==0.41.2.post2"
   )
 
+EMBEDS=(
+    #detail
+    "https://civitai.com/api/download/models/106020"
+    #fast-negative-embedding
+    "https://civitai.com/api/download/models/76712"
+    #easynegative
+    "https://civitai.com/api/download/models/9208"
+    #BadDream
+    "https://civitai.com/api/download/models/77169"
+    #deep-negative
+    "https://civitai.com/api/download/models/5637"
+    #badhandv4
+    "https://civitai.com/api/download/models/20068"
+    #negativehand
+    "https://civitai.com/api/download/models/60938"
+    #verybadimagenegative
+    "https://civitai.com/api/download/models/25820"
+    #badprompt-negative
+    "https://civitai.com/api/download/models/60095"
+    #bad-artist-negative
+    "https://civitai.com/api/download/models/6056"
+    #badquality-negative
+    "https://civitai.com/api/download/models/23716"
+    #simplenegative
+    "https://civitai.com/api/download/models/287973"
+    #asyncs-negative
+    "https://civitai.com/api/download/models/345593"
+    #ti-easynegativev2
+    "https://civitai.com/api/download/models/107234"
+    #useful-quality-embeddings
+    "https://civitai.com/api/download/models/111570"
+    #aissist-negative
+    "https://civitai.com/api/download/models/281179"
+    "https://huggingface.co/yesyeahvh/bad-hands-5/resolve/main/bad-hands-5.pt"
+)
+
 EXTENSIONS=(
     #"https://github.com/Mikubill/sd-webui-controlnet"
     #"https://github.com/d8ahazard/sd_dreambooth_extension"
@@ -107,6 +143,9 @@ function provisioning_start() {
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/esrgan" \
         "${ESRGAN_MODELS[@]}"
+    provisioning_get_models \
+        "${WORKSPACE}/storage/stable_diffusion/embeddings" \
+        "${EMBEDS[@]}"
      
     PLATFORM_FLAGS=""
     if [[ $XPU_TARGET = "CPU" ]]; then
