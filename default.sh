@@ -146,7 +146,6 @@ function provisioning_start() {
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/embeddings" \
         "${EMBEDS[@]}"
-     
     PLATFORM_FLAGS=""
     if [[ $XPU_TARGET = "CPU" ]]; then
         PLATFORM_FLAGS="--use-cpu all --skip-torch-cuda-test --no-half"
