@@ -78,15 +78,15 @@ CHECKPOINT_MODELS=(
 )
 
 LORA_MODELS=(
-    "https://civitai.com/api/download/models/62833"
-    "https://civitai.com/api/download/models/87153"
+    #"https://civitai.com/api/download/models/62833"
+    #"https://civitai.com/api/download/models/87153"
 )
 
 VAE_MODELS=(
-    "https://huggingface.co/stabilityai/sd-vae-ft-ema-original/resolve/main/vae-ft-ema-560000-ema-pruned.safetensors"
-    "https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors"
-    "https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/vae/kl-f8-anime2.ckpt"
-    "https://huggingface.co/NoCrypt/blessed_vae/resolve/main/blessed.vae.pt"
+    #"https://huggingface.co/stabilityai/sd-vae-ft-ema-original/resolve/main/vae-ft-ema-560000-ema-pruned.safetensors"
+    #"https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors"
+    #"https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/vae/kl-f8-anime2.ckpt"
+    #"https://huggingface.co/NoCrypt/blessed_vae/resolve/main/blessed.vae.pt"
 )
 
 ESRGAN_MODELS=(
