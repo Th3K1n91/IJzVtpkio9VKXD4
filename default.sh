@@ -18,39 +18,39 @@ PIP_PACKAGES=(
   )
 
 EMBEDS=(
-    #detail
-    "https://civitai.com/api/download/models/106020"
-    #fast-negative-embedding
-    "https://civitai.com/api/download/models/76712"
-    #easynegative
-    "https://civitai.com/api/download/models/9208"
-    #BadDream
-    "https://civitai.com/api/download/models/77169"
-    #deep-negative
-    "https://civitai.com/api/download/models/5637"
-    #badhandv4
-    "https://civitai.com/api/download/models/20068"
-    #negativehand
-    "https://civitai.com/api/download/models/60938"
-    #verybadimagenegative
-    "https://civitai.com/api/download/models/25820"
-    #badprompt-negative
-    "https://civitai.com/api/download/models/60095"
-    #bad-artist-negative
-    "https://civitai.com/api/download/models/6056"
-    #badquality-negative
-    "https://civitai.com/api/download/models/23716"
-    #simplenegative
-    "https://civitai.com/api/download/models/287973"
-    #asyncs-negative
-    "https://civitai.com/api/download/models/345593"
-    #ti-easynegativev2
-    "https://civitai.com/api/download/models/107234"
-    #useful-quality-embeddings
-    "https://civitai.com/api/download/models/111570"
-    #aissist-negative
-    "https://civitai.com/api/download/models/281179"
-    "https://huggingface.co/yesyeahvh/bad-hands-5/resolve/main/bad-hands-5.pt"
+    # #detail
+    # "https://civitai.com/api/download/models/106020"
+    # #fast-negative-embedding
+    # "https://civitai.com/api/download/models/76712"
+    # #easynegative
+    # "https://civitai.com/api/download/models/9208"
+    # #BadDream
+    # "https://civitai.com/api/download/models/77169"
+    # #deep-negative
+    # "https://civitai.com/api/download/models/5637"
+    # #badhandv4
+    # "https://civitai.com/api/download/models/20068"
+    # #negativehand
+    # "https://civitai.com/api/download/models/60938"
+    # #verybadimagenegative
+    # "https://civitai.com/api/download/models/25820"
+    # #badprompt-negative
+    # "https://civitai.com/api/download/models/60095"
+    # #bad-artist-negative
+    # "https://civitai.com/api/download/models/6056"
+    # #badquality-negative
+    # "https://civitai.com/api/download/models/23716"
+    # #simplenegative
+    # "https://civitai.com/api/download/models/287973"
+    # #asyncs-negative
+    # "https://civitai.com/api/download/models/345593"
+    # #ti-easynegativev2
+    # "https://civitai.com/api/download/models/107234"
+    # #useful-quality-embeddings
+    # "https://civitai.com/api/download/models/111570"
+    # #aissist-negative
+    # "https://civitai.com/api/download/models/281179"
+    # "https://huggingface.co/yesyeahvh/bad-hands-5/resolve/main/bad-hands-5.pt"
 )
 
 EXTENSIONS=(
@@ -60,14 +60,14 @@ EXTENSIONS=(
     #"https://github.com/adieyal/sd-dynamic-prompts"
     #"https://github.com/ototadana/sd-face-editor"
     "https://github.com/AlUlkesh/stable-diffusion-webui-images-browser"
-    "https://github.com/hako-mikan/sd-webui-regional-prompter"
+    # "https://github.com/hako-mikan/sd-webui-regional-prompter"
     "https://github.com/Coyote-A/ultimate-upscale-for-automatic1111"
     #"https://github.com/fkunn1326/openpose-editor"
-    "https://github.com/Gourieff/sd-webui-reactor"
+    # "https://github.com/Gourieff/sd-webui-reactor"
     "https://github.com/Th3K1n91/batchlinks-webui"
     "https://github.com/DominikDoom/a1111-sd-webui-tagcomplete"
     "https://github.com/alemelis/sd-webui-ar"
-    "https://github.com/Bing-su/adetailer"
+    # "https://github.com/Bing-su/adetailer"
 )
 
 CHECKPOINT_MODELS=(
