@@ -21,6 +21,7 @@ PIP_PACKAGES=(
 NODES=(
     "https://github.com/ltdrdata/ComfyUI-Manager"
     "https://github.com/cubiq/ComfyUI_essentials"
+    "https://github.com/ciri/comfyui-model-downloader"
 )
 
 CHECKPOINT_MODELS=(
@@ -33,14 +34,12 @@ UNET_MODELS=(
 )
 
 VAE_MODELS=(
-
 )
 
 LORA_MODELS=(
 )
 
 ESRGAN_MODELS=(
-
 )
 
 CONTROLNET_MODELS=(
