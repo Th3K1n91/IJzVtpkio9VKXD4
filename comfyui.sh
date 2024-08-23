@@ -22,6 +22,7 @@ NODES=(
     "https://github.com/ltdrdata/ComfyUI-Manager"
     "https://github.com/cubiq/ComfyUI_essentials"
     "https://github.com/ciri/comfyui-model-downloader"
+    "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
 )
 
 CHECKPOINT_MODELS=(
